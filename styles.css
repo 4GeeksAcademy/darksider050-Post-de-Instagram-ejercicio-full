@@ -44,15 +44,29 @@ body {
 .photo-header {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 10px 15px;
     align-items: center;
 }
-.photo-header .fecha {
-    font-size: 0.8rem;
-    color: #999;
-    margin: 0%;
-}
+.user-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    flex-grow: 1;
 
+}
+.user-info p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+.photo-header .fa-solid.fa-ellipsis-vertical{
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    font-size: 2.2rem;
+}
+.photo-header strong {
+    font-size: 1rem;
+}
 .photo-item img {
     width: 100%; 
     display: block;
@@ -63,14 +77,24 @@ body {
 }
 
 .photo-content p {
-    margin: 5px 0;
+    margin: 15px 0;
 }
 /* .likes, .comments, .shares, .send {
     display: inline-block;
     margin-left: 10px;
     font-size: 0.9rem;
 } */
+.fa-regular.fa-heart, .fa-regular.fa-comment, .fa-regular.fa-paper-plane {
+    font-size: 1.7rem;
+    padding: 0 2px;
+}
 .fa-regular.fa-bookmark{
     float: right;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+}
+
+img.perfil {
+    border-radius: 30%;
+    width: 25px;
+    height: 30px;
 }
