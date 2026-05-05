@@ -1,0 +1,76 @@
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #fafafa;
+    color: #262626;
+}
+
+/* Header Estilo */
+.main-header {
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    text-align: center;
+}
+
+.titulo {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: lighter;
+    font-family: 'Brush Script MT', cursive;
+}
+
+/* Contenedor del Feed */
+.photo-feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra las fotos horizontalmente */
+    padding: 20px 0;
+}
+
+/* Cada Tarjeta de Foto */
+.photo-item {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 350px; 
+}
+
+.photo-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.photo-header .fecha {
+    font-size: 0.8rem;
+    color: #999;
+    margin: 0%;
+}
+
+.photo-item img {
+    width: 100%; 
+    display: block;
+}
+
+.photo-content {
+    padding: 15px;
+}
+
+.photo-content p {
+    margin: 5px 0;
+}
+/* .likes, .comments, .shares, .send {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0.9rem;
+} */
+.fa-regular.fa-bookmark{
+    float: right;
+    font-size: 1.2rem;
+}
